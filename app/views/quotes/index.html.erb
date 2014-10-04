@@ -2,4 +2,6 @@
 	<h1>The Best life tips...</h1>
 	<h2>"<%= @quote.saying %>"</h2>
 	<p>- <%= @quote.author %></p>
+	<%= link_to 'Next quote', 'quotes', :class => 'btn btn-success' %>
+	<%= link_to 'Create', 'quotes/new', :class => 'btn btn-primary' %>
 </div>
